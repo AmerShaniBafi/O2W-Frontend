@@ -1,0 +1,8 @@
+services:
+  o2w-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: o2w-frontend
+    ports:
+      - "8081:80"
